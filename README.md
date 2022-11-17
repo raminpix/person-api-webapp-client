@@ -20,6 +20,6 @@ In order install and deploy the web-application execute the following commands:
 ## How to Test
 Open a web-browser and visit http://localhost:5000
 
-Click the login linkk and use your registered accounts credentials.
+Click the `login` link and use your registered accounts credentials.
 After successful login you will be redirected to the home page and for testing the access to the Person API click `Get All Persons` 
 
