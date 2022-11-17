@@ -11,7 +11,9 @@
 In order install and deploy the web-application execute the following commands:
 
 `python -m venv venv`
+
 `pip install -r requirements.txt`
+
 `python server.py`
 
 
