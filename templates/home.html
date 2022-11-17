@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Person API Accessor using Auth0</title>
+  </head>
+  <body>
+    {% if logged_in %}
+    <h1>Welcome</h1>
+    <p><a href="/persons" id="qsGetAllPersonsBtn">Get All Persons</a></p>
+    <p><a href="/logout" id="qsLogoutBtn">Logout</a></p>
+    {% else %}
+    <h1 id="profileDropDown">Welcome To Person Sample Web Application</h1>
+    <p><a href="/login" id="qsLoginBtn">Please login to continue</a></p>
+    {% endif %}
+  </body>
+</html>
